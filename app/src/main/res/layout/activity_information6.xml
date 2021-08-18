@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".Information6">
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="550dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bk"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="230dp"
+                android:id="@+id/open_menu"
+                android:src="@drawable/open_menu"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="230dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/montant"
+                android:textColor="#000066"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="40dp" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/amountmodeht"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_mod_ht"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="280dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/displacement"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_d_placement_ht"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="10dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="280dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/transport"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_de_transport_pdr"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="280dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/htamountpdr"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_pdr_ht"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="310dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="280dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/othersupplements"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_autres_suppl_ments_ht"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="10dp"
+                android:inputType = "text"
+                android:background="@drawable/roundbuttonblanc"
+                android:layout_marginStart="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="280dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/amountincludingvat"
+                    android:background="@drawable/roundbuttonblanc"
+                    android:hint="@string/montant_r_el_ttc"
+                    android:layout_marginStart="40dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/next"
+                android:textStyle="bold"
+                android:background="@drawable/roundbuttonbluefort"
+                android:text="@string/suivant"
+                android:layout_marginStart="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout></ScrollView>

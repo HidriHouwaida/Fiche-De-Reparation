@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MontantApayer">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="-10dp"
+            android:id="@+id/open_menu"
+            android:src="@drawable/open_menu"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="-10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/montant_payer"
+            android:layout_marginStart="-20dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="-250dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc"
+            android:layout_marginStart="-250dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/amountelectrostar"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/montant_payer_par_electrostar_ht"
+                android:layout_marginStart="30dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="-300dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc"
+            android:layout_marginStart="-300dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/amountclient"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/montant_payer_par_le_client_ht"
+                android:layout_marginStart="30dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="400dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/next"
+            android:layout_marginLeft="-230dp"
+            android:text="@string/suivant"
+            android:layout_marginStart="-230dp" />
+    </LinearLayout></ScrollView>

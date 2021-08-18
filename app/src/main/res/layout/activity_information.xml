@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundbeige">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".Information">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-160dp"
+            android:id="@+id/open_menu"
+            android:src="@drawable/open_menu"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="-160dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_dachat"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/date_d_achat"
+                android:layout_marginStart="30dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/revendeur"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/revendeur"
+                android:layout_marginStart="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/panneclient"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/panne_client"
+                android:layout_marginStart="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/diag1ereniveau"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/diag_1er_nivaeu"
+                android:layout_marginStart="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType = "text"
+            android:background="@drawable/roundbuttonblanc">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateprevuedelivraison"
+                android:background="@drawable/roundbuttonblanc"
+                android:hint="@string/date_pr_vue_de_livraison_intervention"
+                android:layout_marginStart="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/a"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/next"
+            android:text="@string/suivant"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/a"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:id="@+id/choisir_les_dates"
+            android:text="@string/choisir_les_dates"/>
+
+    </LinearLayout>
+</ScrollView>

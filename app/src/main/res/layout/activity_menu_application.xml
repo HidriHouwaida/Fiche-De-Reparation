@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cv"
+    tools:context=".MenuApplication">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#00000000"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/accueil"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/home"
+            android:id="@+id/image_accueil"
+            android:layout_marginRight="48dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:gravity="center_vertical"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/se_d_connecter"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/lougout"
+            android:id="@+id/image_se_deconnecter"
+            android:layout_marginRight="48dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        android:gravity="center_vertical"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/recherche"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="48dp"
+            android:id="@+id/image_recherche"
+            android:src="@drawable/search"
+            android:layout_marginRight="48dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:gravity="center_vertical"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/partager"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="48dp"
+            android:id="@+id/image_partager"
+            android:src="@drawable/share"
+            android:layout_marginRight="48dp"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/signature"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="48dp"
+            android:id="@+id/image_signature"
+            android:src="@drawable/signature"
+            android:layout_marginRight="48dp"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+</LinearLayout>

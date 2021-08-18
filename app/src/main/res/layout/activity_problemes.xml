@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".problemes">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="-10dp"
+            android:id="@+id/open_menu"
+            android:src="@drawable/open_menu"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="-10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="@string/probl_mes"
+            android:layout_marginStart="10dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="@string/technique"
+            android:id="@+id/technique"
+            android:textSize="20sp"
+            android:layout_marginLeft="-300dp"
+            android:layout_marginStart="-300dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="@string/r_paration_difficile"
+            android:textSize="20sp"
+            android:id="@+id/reparationdifficle"
+            android:layout_marginLeft="-125dp"
+            android:layout_marginStart="-125dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="@string/temps_insuffisant"
+            android:textSize="20sp"
+            android:layout_marginLeft="-197dp"
+            android:id="@+id/tempsinsuffisant"
+            android:layout_marginStart="-197dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:text="@string/client_non_disponible"
+            android:textSize="20sp"
+            android:layout_marginLeft="-192dp"
+            android:id="@+id/clientnondisponible"
+            android:layout_marginStart="-192dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:text="@string/aucun"
+            android:textSize="20sp"
+            android:layout_marginLeft="-215dp"
+            android:id="@+id/aucun"
+            android:layout_marginStart="-215dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/next"
+            android:background="@drawable/roundbuttonblue"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Sauvgarder"
+            android:layout_marginStart="100dp" />
+    </LinearLayout></ScrollView>

@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".InformationClientProduit">
+
+        <!--informationClient-->
+        <RelativeLayout
+            android:layout_width="900dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="  Nom"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/nom">
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Adresse"
+                android:textSize="20sp"
+                android:layout_marginStart="170dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/adresse">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Nom De Société"
+                android:textSize="20sp"
+                android:layout_marginStart="370dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/societe">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="570dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Téléphone de Société"
+                android:textSize="20sp"
+                android:layout_marginStart="570dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="570dp"
+                android:layout_marginStart="570dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/telephone"
+                        >
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+        <!--*********************************************************-->
+
+
+
+        <!--*************************************************-->
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="  marque"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/marque"
+                        android:text="">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  modéle"
+                android:textSize="20sp"
+                android:layout_marginStart="170dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/modele">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Produit"
+                android:textSize="20sp"
+                android:layout_marginStart="370dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/produit">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <!--***********************************************-->
+
+
+
+        <!--********************************************-->
+        <RelativeLayout
+            android:layout_width="1100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="  Date d'achat"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/datedachat">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Revendeur"
+                android:textSize="20sp"
+                android:layout_marginStart="170dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/revendeu">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Panne Client"
+                android:textSize="20sp"
+                android:layout_marginStart="370dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/panne"
+                        >
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="570dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Diag 1ere Niveau"
+                android:textSize="20sp"
+                android:layout_marginStart="570dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="570dp"
+                android:layout_marginStart="570dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/diag">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="770dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Date prévue de livraison"
+                android:textSize="20sp"
+                android:layout_marginStart="770dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="770dp"
+                android:layout_marginStart="770dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/livraison">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <!--**********************************************-->
+
+        <RelativeLayout
+            android:layout_width="1100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:text="  Identification No"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/identification"
+                       >
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Agent agrée"
+                android:textSize="20sp"
+                android:layout_marginStart="200dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginStart="200dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                       android:id="@+id/agent">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Serial No"
+                android:textSize="20sp"
+                android:layout_marginStart="370dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                       android:id="@+id/serialno">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="570dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Intervention"
+                android:textSize="20sp"
+                android:layout_marginStart="570dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="570dp"
+                android:layout_marginStart="570dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/intervention">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="770dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Réf.Client"
+                android:textSize="20sp"
+                android:layout_marginStart="770dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="770dp"
+                android:layout_marginStart="770dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/refclient">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <!--***********************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="1100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:text="   Technicien"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/technicien">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Aide technicien"
+                android:textSize="20sp"
+                tools:ignore="TooManyViews"
+                android:layout_marginStart="200dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginStart="200dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/aidetechnicien">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Début réparation"
+                android:textSize="20sp"
+                android:layout_marginStart="370dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/debut">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="570dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Fin Réparation"
+                android:textSize="20sp"
+                android:layout_marginStart="570dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="570dp"
+                android:layout_marginStart="570dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/fin">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="770dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Détail réparation"
+                android:textSize="20sp"
+                android:layout_marginStart="770dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="770dp"
+                android:layout_marginStart="770dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/detail">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+        <!--****************************************************-->
+        <RelativeLayout
+            android:layout_width="1200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:text="   Date demande PDR"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/demandepdr">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="    Date réception PDR"
+                android:textSize="20sp"
+                android:layout_marginStart="240dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginStart="240dp">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/receptionpdr">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="460dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Tension mesurée"
+                android:textSize="20sp"
+                android:layout_marginStart="460dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="460dp"
+                android:layout_marginStart="460dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tension_mesure">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="660dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="    Temps de soufflage"
+                android:textSize="20sp"
+                android:layout_marginStart="660dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="660dp"
+                android:layout_marginStart="660dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/soufflage">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="910dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Temps de reprise"
+                android:textSize="20sp"
+                android:layout_marginStart="910dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="910dp"
+                android:layout_marginStart="910dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/reprise">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="1200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:text="   Int absorbé"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/absorbe">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Amp STEG"
+                android:textSize="20sp"
+                android:layout_marginStart="240dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginStart="240dp">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/steg">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="460dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Pression de refoulement"
+                android:layout_marginStart="460dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="460dp"
+                android:layout_marginStart="460dp">
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/pression">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="660dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Montant MOD HT"
+                android:textSize="20sp"
+                android:layout_marginStart="660dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="660dp"
+                android:layout_marginStart="660dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/modht">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="910dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Montant déplacement HT"
+                android:textSize="20sp"
+                android:layout_marginStart="910dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="910dp"
+                android:layout_marginStart="910dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/deplacement">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="1400dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:text="   Montant de transport PDR"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/transport">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Montant PDR HT"
+                android:textSize="20sp"
+                android:layout_marginStart="290dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="290dp"
+                android:layout_marginStart="290dp">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/pdrht">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="510dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="    Montant autre supplément"
+                android:textSize="20sp"
+                android:layout_marginStart="510dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="510dp"
+                android:layout_marginStart="510dp">
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/supplement">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="790dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Montant réel TTC"
+                android:textSize="20sp"
+                android:layout_marginStart="790dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="790dp"
+                android:layout_marginStart="790dp">
+                <RelativeLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/reelttc">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="1040dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Montant à payer par electrostar HT"
+                android:textSize="20sp"
+                android:layout_marginStart="1040dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1040dp"
+                android:layout_marginStart="1040dp">
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/electrostar">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="1200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bk"
+            android:layout_marginStart="50dp">
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:text="   Travail terminé ou non"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:background="@drawable/bg"
+                android:layout_marginStart="20dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginStart="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/travail">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="  Probléme(s)"
+                android:textSize="20sp"
+                android:layout_marginStart="290dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="290dp"
+                android:layout_marginStart="290dp">
+                <RelativeLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/probleme">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="510dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Degré de satisfaction"
+                android:textSize="20sp"
+                android:layout_marginStart="510dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="510dp"
+                android:layout_marginStart="510dp">
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/degresatisfaction">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="790dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg"
+                android:text="   Montant à payer par client"
+                android:textSize="20sp"
+                android:layout_marginStart="790dp" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="790dp"
+                android:layout_marginStart="790dp">
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/client">
+
+                    </TextView>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout></HorizontalScrollView>

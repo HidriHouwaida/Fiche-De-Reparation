@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hidri">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Fiche De Réparation"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hidri">
+        <activity android:name=".Choix"></activity>
+        <activity android:name=".VoirSignature" />
+        <activity android:name=".Choisir" />
+        <activity android:name=".InformationClientProduit" />
+        <activity android:name=".InformationSociete" />
+        <activity android:name=".Sign_Up" />
+        <activity android:name=".MotDePasse" />
+        <activity android:name=".Information5" />
+        <activity android:name=".Information4" />
+        <activity android:name=".Information2" />
+        <activity android:name=".Information1" />
+        <activity android:name=".Information" />
+        <activity android:name=".date" />
+        <activity android:name=".Calendrier" />
+        <activity android:name=".InformationTechnicien" />
+        <activity android:name=".MontantApayer" />
+        <activity android:name=".Information6" />
+        <activity android:name=".ParametreMesure" />
+        <activity android:name=".Reclamation" />
+        <activity android:name=".Signature" />
+        <activity android:name=".Remarques" />
+        <activity android:name=".Recherche" />
+        <activity android:name=".MenuApplication" />
+        <activity android:name=".problemes" />
+        <activity android:name=".satisfaction_client" />
+        <activity android:name=".travail_termine_ou_non" />
+        <activity android:name=".ChoisirNomProduit" />
+        <activity android:name=".ChoisirNomClient" />
+        <activity android:name=".Code" />
+        <activity android:name=".Sign_In" />
+        <activity android:name=".Type_De_Personne" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

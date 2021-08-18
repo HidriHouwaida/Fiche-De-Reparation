@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".Information">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-100dp"
+            tools:ignore="NestedScrolling"
+            android:layout_marginStart="-100dp">
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="-10dp"
+                    android:id="@+id/open_menu"
+                    android:src="@drawable/open_menu"
+                    android:contentDescription="@string/todo"
+                    android:layout_marginStart="-10dp" />
+            </RelativeLayout>
+        </ScrollView>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:ignore="NestedScrolling">
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_round">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/a"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:background="#00000000"
+                    android:id="@+id/edit_to"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="50dp"
+                    android:autofillHints=""
+                    android:inputType="text"
+                    tools:ignore="LabelFor">
+
+                </EditText>
+            </RelativeLayout></ScrollView>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="NestedScrolling">
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_round">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/objet"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:background="#00000000"
+                    android:id="@+id/edit_subject"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="100dp"
+                    android:autofillHints=""
+                    android:inputType="text"
+                    tools:ignore="LabelFor">
+
+                </EditText>
+            </RelativeLayout></ScrollView>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="NestedScrolling">
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_round">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/message"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:background="#00000000"
+                    android:id="@+id/edit_message"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="120dp"
+                    android:autofillHints=""
+                    tools:ignore="LabelFor"
+                    android:inputType="text">
+
+                </EditText>
+            </RelativeLayout></ScrollView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round"
+            android:text="@string/envoyer"
+            android:textSize="25sp"
+            android:id="@+id/bt_send"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/purple_700"
+            android:layout_marginLeft="-115dp"
+            android:layout_marginStart="-115dp" />
+
+    </LinearLayout>
+</ScrollView>

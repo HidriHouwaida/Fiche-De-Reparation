@@ -1,0 +1,164 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Hidri</string>
+    <string name="commen_er">Commençer</string>
+    <string name="vous_tes">vous êtes?</string>
+    <string name="employ">employé</string>
+    <string name="client">Client</string>
+
+    <string name="adresse_email"> Adresse </string>
+
+
+    <string name="cr_er_un_compte" tools:ignore="DuplicateDefinition">Créer Un Compte</string>
+    <string name="cr_er">Créer</string>
+    <string name="vous_avez_d_ja_un_compte">vous avez déja un compte!</string>
+
+    <string name="mot_de_passe">Mot De Passe</string>
+    <string name="mot_de_passe_oubli">Mot De Passe Oublié</string>
+    <string name="se_connecter">Se Connecter</string>
+
+
+    <string name="le_travail_est_il_termin">Le travail est-il terminé</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+
+
+    <string name="satisfait">Satisfait</string>
+    <string name="peu_satisfait">Peu Satisfait</string>
+    <string name="non_satisfait">Non Satisfait</string>
+    <string name="vos_remarque">Vos remarque</string>
+    <string name="a">à</string>
+    <string name="signature">signature</string>
+    <string name="envoyer">envoyer</string>
+    <string name="message">message</string>
+    <string name="objet">objet</string>
+    <string name="information_produit">Information Produit:</string>
+    <string name="marque">Marque</string>
+    <string name="produit">Produit</string>
+    <string name="mod_le">Modéle</string>
+    <string name="information_client_et_produit">Information Client et produit</string>
+    <string name="information_soci_t">Information Société</string>
+    <string name="probl_mes">Problémes</string>
+    <string name="technique">Technique</string>
+    <string name="r_paration_difficile">Réparation Difficile</string>
+    <string name="temps_insuffisant">Temps Insuffisant</string>
+    <string name="client_non_disponible">Client Non Disponible</string>
+    <string name="param_tres_mesur_e">Paramétres Mesurée:</string>
+    <string name="tension_mesur_e">Tension mesurée</string>
+    <string name="temps_de_soufflage">Temps de soufflage</string>
+    <string name="temps_de_reprise">Temps de reprise</string>
+    <string name="int_absorb">Int absorbé</string>
+    <string name="amp_steg">Amp STEG</string>
+    <string name="pression_de_refoulement">Pression de Refoulement</string>
+    <string name="nom_de_client">Nom De Client</string>
+    <string name="email">Email</string>
+    <string name="envoyermonmotdepasse">EnvoyerMonMotDePasse</string>
+
+    <string name="montant_payer">Montant à payer:</string>
+    <string name="montant_payer_par_electrostar_ht">Montant à payer par Electrostar HT</string>
+    <string name="montant_payer_par_le_client_ht">Montant à payer par le client HT</string>
+
+    <string name="partager">Partager</string>
+    <string name="recherche">Recherche</string>
+    <string name="accueil">Accueil</string>
+    <string name="se_d_connecter">Se déconnecter</string>
+    <string name="technicien">Technicien</string>
+    <string name="aide_technicien">Aide technicien</string>
+    <string name="d_but_r_paration">Début Réparation</string>
+    <string name="fin_r_paration">Fin Réparation</string>
+    <string name="d_tail_r_paration">Détail Réparation</string>
+    <string name="choisir_les_dates">Choisir les dates</string>
+    <string name="montant_autres_suppl_ments_ht">Montant Autres Suppléments HT</string>
+    <string name="montant">Montant:</string>
+    <string name="montant_mod_ht">Montant MOD HT</string>
+    <string name="montant_d_placement_ht">Montant Déplacement HT</string>
+    <string name="montant_de_transport_pdr">Montant de Transport PDR</string>
+    <string name="montant_pdr_ht">Montant PDR HT</string>
+    <string name="montant_r_el_ttc">Montant réel TTC</string>
+    <string name="intervention_payante_ou_non_payante">Intervention: payante ou non payante</string>
+    <string name="r_f_client">Réf.Client</string>
+    <string name="identification_no">Identification No</string>
+    <string name="agent_agr_e">Agent agrée</string>
+    <string name="serial_no">Serial no</string>
+    <string name="suivant">Suivant</string>
+    <string name="date_d_achat">Date d\'achat</string>
+    <string name="revendeur">Revendeur</string>
+    <string name="panne_client">Panne client</string>
+    <string name="diag_1er_nivaeu">Diag 1er Nivaeu</string>
+    <string name="date_pr_vue_de_livraison_intervention">Date Prévue de livraison/intervention</string>
+    <string name="bbbbbbbbb">bbbbbbbbb</string>
+    <string name="date_demande_pdr">Date demande PDR</string>
+    <string name="date_r_ception_pdr">Date réception PDR</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_6">6</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="_2">2</string>
+    <string name="entrer_le_nom_de_produit">Entrer le nom de produit</string>
+    <string name="entrer_les_caract_restiques_de_produit">Entrer les caractérestiques de produit</string>
+    <string name="liste_des_prduits_marques_et_mod_les">Liste Des Prduits Marques et Modéles</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="entrer_le_nom_de_client">Entrer le nom de client</string>
+    <string name="valider">Valider</string>
+    <string name="liste_des_clients">Liste Des Clients</string>
+    <string name="date_de_livraison">Date de livraison</string>
+    <string name="date_fin_r_paration">Date fin réparation</string>
+    <string name="date_d_but_r_paration">Date Début réparation</string>
+    <string name="date_d_acha">Date d\'achat</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="nom">Nom</string>
+    <string name="adresse">Adresse</string>
+    <string name="nom_de_soci_t">Nom De Société</string>
+    <string name="t_l_phone_de_soci_t">Téléphone De Société</string>
+    <string name="todo">todo</string>
+    <string name="st_hhw_trading">STé hhw Trading</string>
+    <string name="localisation">Localisation</string>
+    <string name="entrer_ces_informations">entrer ces informations</string>
+    <string name="aucun">Aucun</string>
+    <string name="informationclient_et_produit">Information Client et Produit</string>
+
+
+    <string name="visa_client">Visa Client</string>
+
+    <string name="le_magasinier">Le magasinier</string>
+
+    <string name="visa_clien">Visa client</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="resp_equipe">Resp Equipe</string>
+    <string name="le_r_ceptionnaire">Le réceptionnaire</string>
+    <string name="votre_siganture">Votre Siganture</string>
+    <string name="_80100096">80100096</string>
+    <string name="t_l_phone_de_soci_">Téléphone de société</string>
+
+    <string name="serial_n">Serial No</string>
+
+    <string name="intervention">Intervention:</string>
+    <string name="date_pr_vue_de_livraison">Date Prévue De Livraison</string>
+    <string name="aide_technicient">Aide Technicient</string>
+    <string name="diag_1ere_niveau">Diag 1ere Niveau</string>
+    <string name="panne_clien">Panne Client</string>
+
+    <string name="date_d_ach">Date D\'achat</string>
+    <string name="pression_de_refoulemen">Pression de refoulement</string>
+
+    <string name="montant_d_placement_h">Montant déplacement HT</string>
+    <string name="montant_de_transport_pd">Montant de transport PDR</string>
+    <string name="montant_autre_supplement">Montant autre supplement</string>
+
+    <string name="montant_payer_par_electrostarht">Montant à payer par electrostar HT</string>
+    <string name="travail_termin_ou_non">Travail terminé ou non</string>
+    <string name="probl_me_s">Probléme(s)</string>
+    <string name="degr_de_satisfaction">Degré de satisfaction</string>
+    <string name="remplir_ces_informations">Remplir ces informations</string>
+    <string name="nom_client">nom client</string>
+    <string name="valide">valider</string>
+    <string name="r_f_rence">Référence</string>
+    <string name="qty">Qty</string>
+    <string name="stock">Stock</string>
+    <string name="d_signation">Désignation</string>
+</resources>
